@@ -18,7 +18,7 @@ How to create PHP environment on AWS Elastic Beanstalk:
 3. Fill the Application Information.
 4. Choose **Create web server** and attach appropriate IAM role.
 5. In **Environment Type** page:
-	1. Choose **Predefined configuration**: **PHP**.
+	1. Choose **Predefined configuration**: **PHP**. Make sure you configuration is **64bit Amazon Linux 2015.03 v1.4.3 running PHP 5.6** or any other compatible configuration.
 	2. Environment type **Load balancing, auto scaling**.
 	3. Click **Next**.
 6. In **Application Version** page:
