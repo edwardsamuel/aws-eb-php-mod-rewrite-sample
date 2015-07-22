@@ -35,8 +35,8 @@ How to create PHP environment on AWS Elastic Beanstalk:
 
 What you can check in this app:
 
- - `http://<your-env-url>.elasticbeanstalk.com/index.php`: Check for successful PHP deployment.
- - `http://<your-env-url>.elasticbeanstalk.com/phpinfo.php`: Check for your PHP environment. You can make sure your `mod_rewrite` is enabled here.
- - `http://<your-env-url>.elasticbeanstalk.com/searchPage.php?crs_category=business`: Original PHP script for `mod_rewrite` test.
- - `http://<your-env-url>.elasticbeanstalk.com/category/business/`: `mod_rewrite` test. This url will be handled by `searchPage.php`.
+ - `http://<your-env-url>.elasticbeanstalk.com/aws-eb-php-mod-rewrite-sample-master/index.php`: Check for successful PHP deployment.
+ - `http://<your-env-url>.elasticbeanstalk.com/aws-eb-php-mod-rewrite-sample-master/phpinfo.php`: Check for your PHP environment. You can make sure your `mod_rewrite` is enabled here.
+ - `http://<your-env-url>.elasticbeanstalk.com/aws-eb-php-mod-rewrite-sample-master/searchPage.php?crs_category=business`: Original PHP script for `mod_rewrite` test.
+ - `http://<your-env-url>.elasticbeanstalk.com/aws-eb-php-mod-rewrite-sample-master/category/business/`: `mod_rewrite` test. This url will be handled by `searchPage.php`.
 
