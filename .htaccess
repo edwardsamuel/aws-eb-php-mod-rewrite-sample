@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{THE_REQUEST} searchPage.php\?crs_category=([^\s]+) [NC]
+RewriteRule ^category/$1? [NC,R,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^category/([^/]+)/?$ searchPage.php?crs_category=$1 [QSA,L,NC]
